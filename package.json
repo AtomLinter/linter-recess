@@ -4,7 +4,7 @@
   "linter-package": true,
   "activationEvents": [],
   "version": "0.0.0",
-  "description": "Lint LESS on the fly, using recess",
+  "description": "Lint LESS on the fly, using recess (not ready)",
   "repository": "https://github.com/atom/linter-recess",
   "license": "MIT",
   "engines": {
