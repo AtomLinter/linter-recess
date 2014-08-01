@@ -1,0 +1,16 @@
+{
+  "name": "linter-recess",
+  "main": "./lib/init",
+  "linter-package": true,
+  "activationEvents": [],
+  "version": "0.0.0",
+  "description": "Lint LESS on the fly, using recess",
+  "repository": "https://github.com/atom/linter-recess",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "recess": "1.1.9"
+  }
+}
