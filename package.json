@@ -3,6 +3,7 @@
   "main": "./lib/init",
   "linter-package": true,
   "version": "0.0.1",
+  "private": true,
   "description": "Lint LESS on the fly, using recess (not ready)",
   "repository": "https://github.com/AtomLinter/linter-recess",
   "license": "MIT",
@@ -11,5 +12,20 @@
   },
   "dependencies": {
     "recess": "1.1.9"
+  },
+  "renovate": {
+    "extends": [
+      "config:base"
+    ],
+    "semanticCommits": true,
+    "rangeStrategy": "pin",
+    "packageRules": [
+      {
+        "packagePatterns": [
+          "^eslint"
+        ],
+        "groupName": "ESLint packages"
+      }
+    ]
   }
 }
