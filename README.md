@@ -1,5 +1,7 @@
 # linter-recess package
 
-A short description of your package.
+This linter is deprecated, `recess` is no longer maintained, more information [twitter/recess
+](https://github.com/twitter/recess).
 
-![A screenshot of your spankin' package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+We recommends the use of [linter-stylelint
+](https://atom.io/packages/linter-stylelint) instead.
